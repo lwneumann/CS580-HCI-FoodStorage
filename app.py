@@ -2,16 +2,18 @@ from flask import Flask, render_template, url_for, request, redirect
 import food
 
 
-# Setup
+# --- Setup ---
 app = Flask(__name__)
 fridge = food.Fridge()
 fridge.stock()
 
-# Pages
+# --- Pages ---
+# Base Page
 @app.route('/')
 def index():
     return render_template('main.html')
 
+# Example Page
 @app.route('/example/')
 def expample_page():
     f = [
@@ -21,17 +23,20 @@ def expample_page():
     ]
     return render_template('example.html', food = f)
 
-# Errors
+# --- Errors ---
+# Page not found
 @app.errorhandler(404)
 def page_not_found(e):
     return render_template('error/404.html'), 404
 
+# Server Error (bad code)
 @app.errorhandler(500)
 def internal_error(e):
     return render_template('error/500.html'), 500
 
 
-# Built Ins
+# --- Built Ins ---
+# Functions accessible within the html pages
 @app.context_processor
 def utility_processor():
     global fridge
