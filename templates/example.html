@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+
+{% block title %}Example{% endblock %}
+{% block content %}
+<body style="background-color:aliceblue;">
+    <table>
+        <tr>
+            <th>
+                Food
+            </th>
+            <th>
+                Lifespan
+            </th>
+            <th>
+                Date bought
+            </th>
+            <th>
+                Expected death
+            </th>
+        </tr>
+        {% for f in food %}
+            <tr>
+                <td>
+                    {{ f[0] }}
+                </td>
+                <td>
+                    {{ f[1] }}
+                </td>
+                <td>
+                    {{ f[2] }}
+                </td>
+                <td>
+                    {{ f[3] }}
+                </td>
+            </tr>
+        {% endfor %}
+    </table>
+</body>
+{% endblock %}

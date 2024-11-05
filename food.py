@@ -9,7 +9,7 @@ class Fridge:
         return
 
     def add(self, f):
-
+        self.contents.append(f)
         return
 
     def add_card(self, cart):
@@ -19,25 +19,19 @@ class Fridge:
 
     def get_all(self):
         # Returns all food
-        return [f.get_food() for f in self.contents]
+        return [f.get_info() for f in self.contents]
 
 
 class Food:
-    def __init__(self):
-        
-        return
-    
-    def __str__(self):
-        return
-    
-    def __repr__(self):
+    def __init__(self, name, product, storage_time, storage, life_time, added):
+        self.name = name
+        self.product = product
+        self.storage_time = storage_time
+        self.storage = storage
+        self.life_time = life_time
+        self.added = added
         return
     
     def get_info(self):
-
+        
         return
-
-
-def get_food():
-
-    return

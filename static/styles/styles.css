@@ -2,7 +2,7 @@
 html {
     overscroll-behavior: none;
 }
-body {
+.mainPage {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -29,6 +29,25 @@ body {
         transform: rotate(360deg) scale(1);
     }
 }
+
+/* Table */
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+td, th {
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+}
+th {
+    background-color: gray;
+}
+tr:nth-child(odd) {
+    background-color: lightblue;
+}
+
 p {
     color: white;
 }
