@@ -1,0 +1,15 @@
+/* Main Body */
+html {
+    overscroll-behavior: none;
+}
+body {
+    display: flex;
+    margin: 0;
+    min-height: 100vh;
+    background-color: black;
+    background-image: url('/static/img/broccoli.png');
+    background-size: 20vw;
+}
+p {
+    color: white;
+}
