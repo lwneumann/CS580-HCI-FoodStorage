@@ -23,6 +23,7 @@ def expample_page():
     ]
     return render_template('example.html', food = f)
 
+
 # --- Errors ---
 # Page not found
 @app.errorhandler(404)

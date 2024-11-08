@@ -35,3 +35,35 @@ class Food:
     def get_info(self):
         
         return
+
+
+
+def load_csv():
+    with open("./FoodLife/shelf_life.csv") as file:
+        text = file.read()
+
+    text = text.split("\n")
+    flife = [ line.split(',') for line in text ]
+
+    """
+    names = [ f[0] for f in flife[1:] ]
+
+    while True:
+        print()
+        print()
+        search = input("What is your food?\n")
+        print()
+        for n in names:
+            if search.lower() in n.lower():
+                print(n)
+    """
+
+    print(text[0])
+    for i, l in enumerate(text):
+        if "open" in l:
+            print(flife[i][0])
+    return
+
+
+if __name__ == "__main__":
+    load_csv()

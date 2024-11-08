@@ -1,0 +1,19 @@
+Page
+ - Sort by death date
+ - Add remove
+ - Remove button
+
+Backend
+ - Save as file
+ - Read file
+
+ - 
+
+
+
+ food = {
+    "banana" : [
+        "PRODUCT": "banana",
+        "FRIDGE": "1 day"
+    ]
+ }

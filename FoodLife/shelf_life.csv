@@ -1,203 +1,208 @@
-PRODUCT,REFRIGERATED,FROZEN,SHELF,REFRIGERATOR,FREEZER,FRIDGE_AFTER_THAW,UNOPENED_PANTRY,OPEN_FRIDGE,OPEN_PANTRY
-Juice in cartons, fruit drinks, punch,3 weeks, unopened, 7-10 days open,8-12 months,None,None,None,None,None,None,None
-Butter,1-3 months,6-9 months,None,None,None,None,None,None,None
-Buttermilk,1-2 weeks,3 months,None,None,None,None,None,None,None
-Hard Cheese (such as cheddar, swiss, block parmesan),6 months unopened, 3-4 weeks opened,6 months,None,None,None,None,None,None,None
-Soft Cheese (such as Brie, Bel Paese),1 week,6 months,None,None,None,None,None,None,None
-Shredded cheddar, mozzarella, etc.,1 month,3-4 months,None,None,None,None,None,None,None
-Processed slices,1-2 months,Doesn't freeze well,None,None,None,None,None,None,None
-Cottage cheese, ricotta,1 week,Doesn't freeze well,None,None,None,None,None,None,None
-Cream cheese,2 weeks,Doesn't freeze well,None,None,None,None,None,None,None
-Cream, whipping, ultrapasteurized,1 month,Do not freeze,None,None,None,None,None,None,None
-Whipped, sweetened,1 day,1-2 months,None,None,None,None,None,None,None
-Aerosol can, real whipped cream,3-4 weeks,Do not freeze,None,None,None,None,None,None,None
-Aerosol can, nondairy topping,3 months,Do not freeze,None,None,None,None,None,None,None
-Cream, half-and-half,3-4 days,4 months,None,None,None,None,None,None,None
-Dips, sour cream based,2 weeks,Do not freeze,None,None,None,None,None,None,None
-Egg substitutes, liquid unopened,10 days,Do not freeze,None,None,None,None,None,None,None
-Egg substitutes, liquid opened,3 days,Do not freeze,None,None,None,None,None,None,None
-Eggnog, commercial,3-5 days,6 months,None,None,None,None,None,None,None
-Eggs, in shell,3-5 weeks,Do not freeze,None,None,None,None,None,None,None
-Eggs, raw whites, yolks,2-4 days,12 months,None,None,None,None,None,None,None
-Eggs, hard cooked,1 week,Doesn't freeze well,None,None,None,None,None,None,None
-Kefir (fermented milk),1 week after date; opened 1-2 days,Do not freeze,None,None,None,None,None,None,None
-Margarine,6 months,12 months,None,None,None,None,None,None,None
-Milk, plain or flavored,1 week,3 months,None,None,None,None,None,None,None
-Pudding Package date;,2 days after opening,Do not freeze,None,None,None,None,None,None,None
-Sour cream,7-21 days,Doesn't freeze well,None,None,None,None,None,None,None
-Yogurt,7-14 days,1-2 months,None,None,None,None,None,None,None
-Tube cans of biscuits, rolls, pizza dough, etc.,Use-by date,Do not freeze,None,None,None,None,None,None,None
-Ready-to-bake pie crust,Use-by date,2 months,None,None,None,None,None,None,None
-Cookie dough,Use by date, unopened or opened,2 months,None,None,None,None,None,None,None
-fresh,1-2 days or use-by date on package,2 months,None,None,None,None,None,None,None
-Pesto, Salsa,Date on carton; 3 days after opening,1-2 months,None,None,None,None,None,None,None
-Soy or rice beverage, refrigerated,7-10 days,Do not freeze,None,None,None,None,None,None,None
-Tofu,1 week or package date,5 months,None,None,None,None,None,None,None
-Miso,3 months,Do not freeze,None,None,None,None,None,None,None
-Lean fish (cod, flounder, haddock, halibut, sole, etc.),1-2 days,6-8 months,None,None,None,None,None,None,None
-Lean fish (pollock, ocean perch, rockfish, sea trout),1-2 days,4 months,None,None,None,None,None,None,None
-Fatty fish (bluefish, mackerel, mullet, salmon, tuna, etc.),1-2 days,2-3 months,None,None,None,None,None,None,None
-Caviar, fresh, in jar,1-4 weeks; 2 days open,Doesn't freeze well,None,None,None,None,None,None,None
-Cooked fish, all,3-4 days,1-2 months,None,None,None,None,None,None,None
-Surimi seafood,3-4 days or package date,9 months,None,None,None,None,None,None,None
-Shrimp, scallops, crayfish, squid,1-2 days,3-6 months,None,None,None,None,None,None,None
-Shucked clams, mussels and oysters,1-2 days,3-4 months,None,None,None,None,None,None,None
-Crab meat, fresh,1-2 days,4 months,None,None,None,None,None,None,None
-Crab meat, pasteurized,6 months unopened, 3-5 days opened,4 months,None,None,None,None,None,None,None
-Crab legs, king, dungeness, snow,5 days,9-12 months,None,None,None,None,None,None,None
-Live clams, mussels, crab and oysters,1-2 days,2-3 months,None,None,None,None,None,None,None
-Live lobsters,1-2 days,2-3 months,None,None,None,None,None,None,None
-Lobster tails,None,None,None,None,3 months,2 days,None,None,None
-Cooked shellfish, all,3-4 days,3 months,None,None,None,None,None,None,None
-Herring,3-4 days,2 months,None,None,None,None,None,None,None
-Salmon, whitefish, cold-smoked,5-8 days,2 months,None,None,None,None,None,None,None
-Salmon, whitefish, hot smoked,14 days or date on vacuum pkg,6 months in vacuum pkg,None,None,None,None,None,None,None
-Beef, lamb, pork or veal chops, steaks, roasts,3-5 days,4-12 months,None,None,None,None,None,None,None
-Ground meat,1-2 days,3-4 months,None,None,None,None,None,None,None
-Variety meats (liver, tongue, chitterlings, etc.),1-2 days,3-4 months,None,None,None,None,None,None,None
-Cooked meats (after home cooking),3-4 days,2-3 months,None,None,None,None,None,None,None
-Bacon,1 week,1 month,None,None,None,None,None,None,None
-Corned beef, in pouch with pickling juices,5-7 days,1 month,None,None,None,None,None,None,None
-Ham, canned ("keep refrigerated" label),6-9 months,Do not freeze,None,None,None,None,None,None,None
-Ham, fully cooked, whole,1 week,1-2 months,None,None,None,None,None,None,None
-Ham, fully cooked, slices or half,3-4 days,1-2 months,None,None,None,None,None,None,None
-Ham, cook before eating,1 week,1-2 months,None,None,None,None,None,None,None
-Hot dogs, sealed in package,2 weeks,1-2 months,None,None,None,None,None,None,None
-Hot dogs, after opening,1 week,1-2 months,None,None,None,None,None,None,None
-Lunch meats, sealed in package,2 weeks,1-2 months,None,None,None,None,None,None,None
-Lunch meats, after opening,3-5 days,1-2 months,None,None,None,None,None,None,None
-Sausage, raw, bulk type,1-2 days,1-2 months,None,None,None,None,None,None,None
-Sausage, smoked links, patties,1 week,1-2 months,None,None,None,None,None,None,None
-Sausage, hard, dry (pepperoni), sliced,2-3 weeks,1-2 months,None,None,None,None,None,None,None
-Chicken or turkey, whole,1-2 days,12 months,None,None,None,None,None,None,None
-Chicken or turkey, parts,1-2 days,9 months,None,None,None,None,None,None,None
-Duckling or goose, whole,1-2 days,6 months,None,None,None,None,None,None,None
-Giblets,1-2 days,3-4 months,None,None,None,None,None,None,None
-Chicken nuggets, patties,1-2 days,1-3 months,None,None,None,None,None,None,None
-Cooked poultry dishes,3-4 days,4-6 months,None,None,None,None,None,None,None
-Fried chicken,3-4 days,4 months,None,None,None,None,None,None,None
-Ground turkey or chicken,1-2 days,3-4 months,None,None,None,None,None,None,None
-Pieces covered with broth or gravy,1-2 days,6 months,None,None,None,None,None,None,None
-Rotisserie chicken,3-4 days,4 months,None,None,None,None,None,None,None
-Apples,None,None,1-2 days,3 weeks Cooked,,8 months,None,None,None,None
-Apricots,None,None,Until ripe,2-3 days,Do not freeze,None,None,None,None
-Avocados,None,None,Until ripe,3-4 days,Do not freeze,None,None,None,None
-Bananas,None,None,Until ripe,2 days, skin will blacken,Whole peeled, 1 month,None,None,None,None
-Berries, cherries,None,None,x,1-2 days,4 months,None,None,None,None
-Citrus Fruit,None,None,10 days,1-2 weeks,Do not freeze,None,None,None,None
-Coconuts, fresh,None,None,1 week,2-3 weeks,Shredded, 6 months,None,None,None,None
-Grapes,None,None,1 day,1 week,Whole, 1 month,None,None,None,None
-Kiwi Fruit,None,None,Until ripe,3-4 days,Do not freeze,None,None,None,None
-Melons,None,None,1-2 days,3-4 days,Balls, 1 month,None,None,None,None
-Papaya, mango,None,None,3-5 days,1 week,Do not freeze,None,None,None,None
-Peaches, nectarines,None,None,Until ripe,3-4 days,Sliced, lemon juice & sugar, 2 months,None,None,None,None
-Pears, Plums,None,None,3-5 days,3-4 days,Do not freeze,None,None,None,None
-Artichokes, whole,None,None,1-2 days,1-2 weeks,Do not freez,None,None,None,None
-Asparagus,None,None,x,3-4 days,8 months,None,None,None,None
-Beans, green or wax,None,None,x,3-4 days,8 month,None,None,None,None
-Beets,None,None,1 day,7-10 days,6-8 months,None,None,None,None
-Bok choy,None,None,x,2-3 days,10-12 months,None,None,None,None
-Broccoli, raab, rapini,None,None,x,3-5 days,10-12 months,None,None,None,None
-Brussels sprouts,None,None,x,3-5 days,10-12 months,None,None,None,None
-Cauliflower,None,None,x,3-5 days,10-12 months,None,None,None,None
-Cabbage,None,None,x,1-2 weeks,10-12 months,None,None,None,None
-Carrots, parsnips,None,None,x,3 weeks,10-12 months,None,None,None,None
-Celery,None,None,x,1-2 weeks,10-12 months,None,None,None,None
-Corn on the cob,None,None,x,1-2 days,8 months,None,None,None,None
-Cucumbers,None,None,x,4-5 days,Do not freeze,None,None,None,None
-Eggplant,None,None,1 day,3-4 days,6-8 months,None,None,None,None
-Garlic,None,None,1 month,1-2 weeks,1 month,None,None,None,None
-Ginger Root,None,None,1-2 days,1-2 weeks,1 month,None,None,None,None
-Greens,None,None,x,1-2 days,10-12 months,None,None,None,None
-Herbs, fresh,None,None,x,7-10 days,1-2 months,None,None,None,None
-Leeks,None,None,x,1-2 weeks,10-12 months,None,None,None,None
-Lettuce, iceberg,None,None,x,1-2 weeks,Do not freeze,None,None,None,None
-Lettuce, leaf,None,None,x,3-7 days,Do not freeze,None,None,None,None
-Mushrooms,None,None,x,2-3 days,10-12 months,None,None,None,None
-Okra,None,None,x,2-3 days,10-12 months,None,None,None,None
-Onions, dry,None,None,2-3 weeks,2 months,10-12 months,None,None,None,None
-Onions, Spring or green,None,None,2-3 weeks,1-2 weeks,10-12 months,None,None,None,None
-Parsley, cilantro,None,None,x,1 week,1-2 months,None,None,None,None
-Peppers, bell or chile,None,None,x,4-5 days,6-8 months,None,None,None,None
-Potatoes,None,None,1-2 months,1-2 weeks,Cooked and mashed, 10-12 months,None,None,None,None
-Radishes,None,None,x,10-14 days,Do not freeze,None,None,None,None
-Rutabagas,None,None,1week,2 weeks,8-10 months,None,None,None,None
-Spinach,None,None,x,1-2 days,10-12 months,None,None,None,None
-Squash, summer,None,None,x,4-5 days,10-12 months,None,None,None,None
-Squash, winter,None,None,1 week,2 weeks,10-12 months,None,None,None,None
-Turnips,None,None,x,2 weeks,8-10 months,None,None,None,None
-Tomatoes,None,None,Until ripe,2-3 days,2 month,None,None,None,None
-Bagels,None,None,None,None,2 months,1-2 weeks,None,None,None
-Bread Dough, commercial,None,None,None,None,Use-by date,After baking, 4-7 days,None,None,None
-Burritos, sandwiches,None,None,None,None,2 months,3-4 days,None,None,None
-Egg substitutes,None,None,None,None,12 months,Date on Carton,None,None,None
-Fish, breaded,None,None,None,None,3-6 months,Do not defrost. Cook frozen.,None,None,None
-Fish, raw,None,None,None,None,6 months,1-2 days,None,None,None
-Fruit such as berries, melons,None,None,None,None,4-6 months,4-5 days,None,None,None
-Guacamole,None,None,None,None,3-4 months,3-4 days,None,None,None
-Ice cream,None,None,None,None,2-4 months,x,None,None,None
-Juice concentrates,None,None,None,None,6-12 months,7-10 days,None,None,None
-Pancakes, Waffles,None,None,None,None,2 months,3-4 days,None,None,None
-Sausages, uncooked,None,None,None,None,1-2 months,1-2 days,None,None,None
-Sausages, precooked,None,None,None,None,1-2 months,1 week,None,None,None
-Sherbet, sorbet,None,None,None,None,2-4 months,x,None,None,None
-Shrimp, shellfish,None,None,None,None,12 months,1-2 days,None,None,None
-Soy crumbles and hotdogs,None,None,None,None,9 months,3-4 days,None,None,None
-Soy meat substitutes,None,None,None,None,12-18 months,3-4 days,None,None,None
-Tempeh,None,None,None,None,12 months,1-2 weeks,None,None,None
-Topping, whipped,None,None,None,None,6 months,2 weeks,None,None,None
-TV Dinners, entrees, breakfast,None,None,None,None,3 months,Do not defrost. Cook frozen.,None,None,None
-Vegetables,None,None,None,None,8 months,3-4 days,None,None,None
-Main dishes or meals, hot or refrigerated,None,None,None,3-4 days,2-3 months,None,None,None,None
-Meats covered with gravy or broth,None,None,None,1-2 days,6 months,None,None,None,None
-Commercial brand vacuum packed dinners with USDA seal,None,None,None,2 weeks,Does not freeze well,None,None,None,None
-Chicken, rotisserie or fried,None,None,None,3-4 days,4 months,None,None,None,None
-Luncheon meats, store-sliced,None,None,None,3-5 days,1-2 months,None,None,None,None
-Pate,None,None,None,1-2 days,1-2 months,None,None,None,None
-Cheese, store-sliced, hard cheese such as cheddar or swiss,None,None,None,3-4 weeks,6 months,None,None,None,None
-Cheese, soft (such as brie, bel paese, goat cheese, fresh mozzarella),None,None,None,1 week,6 months,None,None,None,None
-Salads containing meat, fish, poultry or eggs,None,None,None,3-4 days,Don’t freeze.,None,None,None,None
-Salads, vegetable,None,None,None,3-5 days,Don’t freeze.,None,None,None,None
-Side dishes such as cooked vegetables, rice or potatoes,None,None,None,3-4 days,1-2 months,None,None,None,None
-Olives,None,None,None,2 weeks,Don’t freeze.,None,None,None,None
-Pudding,None,None,None,Package date; 2 days after opening,Don’t freeze.,None,None,None,None
-Fruit, cut,None,None,None,Package date; 4 days after opening,Don’t freeze.,None,None,None,None
-Cheesecake,None,None,x,1 week,2-3 month,None,None,None,None
-Baby food, jars or cans, fruits & vegetables,None,None,None,None,None,None,Use-by date,2-3 days,x
-Baby food, jars or cans, meats & eggs,None,None,None,None,None,None,Use-by date,1 day,x
-Baby food, jars or cans, cereal, dry mixes,None,None,None,None,None,None,Use-by date,x,2 months
-Formula,None,None,None,None,None,None,Use-by date,1-2 days,x
-Bacon Bits, Imitation,None,None,None,None,None,None,4 months,Refer to jar,4 months
-Beans, Dried,None,None,None,None,None,None,12 months,x,4 months
-Canned goods, low acid (such as meat, poultry, fish, gravy, stew, soups, beans, carrots, corn, pasta, peas, potatoes, spinach),None,None,None,None,None,None,2-5 years,3-4 days,x
-Canned goods, high acid (such as juices, fruit, pickles, sauerkraut, tomato soup, and foods in vinegar-based sauce),None,None,None,None,None,None,12-18 months,5-7 days,x
-Cereal, ready-to-eat,None,None,None,None,None,None,6-12 months,x,3 months
-Cook before eating (oatmeal, etc.),None,None,None,None,None,None,12 months,x,6-12 months
-Coffee, whole beans,,None,None,None,None,None,None,1-3 weeks,3-4 months frozen 2 weeks refrigerated,1 week
-Coffee, non-vacuum bag, ground, in cans,None,None,None,None,None,None,2 years,3-4 months frozen 2 weeks refrigerated,1 week
-Coffee, instant, jars and tins,None,None,None,None,None,None,12 months,3-4 months frozen 2 weeks refrigerated,2-3 months
-Bread, commercial,None,None,2-4 days,7-14 days,3 months,None,None,None,None
-Bread, flat (tortillas, pita),None,None,2-4 days,4-7 days,4 months,None,None,None,None
-Cakes, angel food,None,None,1-2 days,1 week,2 months,None,None,None,None
-Cakes, chiffon, sponge,None,None,1-2 day,1 week,2 months,None,None,None,None
-Cakes, chocolate,None,None,1-2 days,1 week,4 months,None,None,None,None
-Cakes, fruit cake,None,None,1 month,6 months,12 months,None,None,None,None
-Cakes, made from mix,None,None,3-4 days,1 week,4 months,None,None,None,None
-Cakes, pound cake,None,None,3-4 days,1 week,6 months,None,None,None,None
-Cookies, bakery or homemade,None,None,2-3 weeks,2 months,8-12 months,None,None,None,None
-Croissants, butter,None,None,1 day,1 week,2 months,None,None,None,None
-Doughnuts, glazed or cake,None,None,1-2 days,1 week,1 month,None,None,None,None
-Doughnuts, dairy cream filled,None,None,x,3-4 days,x,None,None,None,None
-Eclairs, dairy cream filled,None,None,x,3-4 days,x,None,None,None,None
-Muffins,None,None,1-2 days,1 week,2 months,None,None,None,None
-Pastries, danish,None,None,1-2 days,1 week,2 months,None,None,None,None
-Pies, cream,None,None,x,3-4 days,x,None,None,None,None
-Pies, chiffon,None,None,x,1-2 days,x,None,None,None,None
-Pies, fruit,None,None,1-2 days,1 week,8 months,None,None,None,None
-Pies, mincemeat,None,None,2 hours,1 week,8 months,None,None,None,None
-Pies, pecan,None,None,2 hours,3-4 days,1-2 months,None,None,None,None
-Pies, pumpkin,None,None,2 hours,3-4 days,1-2 months,None,None,None,None
-Quiche,None,None,2 hours,3-4 days,2 months,None,None,None,None
-Rolls, yeast, baked,None,None,3-4 days,1 week,2 months,None,None,None,None
-Rolls, yeast, partially baked,None,None,Package date,1 week,2 months,None,None,None,None
-Rolls, filled, meat or vegetables,None,None,2 hours,3-4 days,2 months,None,None,None,None
+PRODUCT,FOODGROUP,REFRIGERATED,FROZEN,SHELF,FREEZER,FRIDGE_AFTER_THAW,UNOPENED_PANTRY,OPEN_FRIDGE,OPEN_PANTRY
+Juice in cartons fruit drinks punch unopened,BEVERAGES FRUIT,21,240,None,None,None,None,None,None
+Juice in cartons fruit drinks punch open,BEVERAGES FRUIT,7,240,None,None,None,None,None,None
+Butter,DAIRY PRODUCTS,30,180,None,None,None,None,None,None
+Buttermilk,DAIRY PRODUCTS,7,90,None,None,None,None,None,None
+Hard Cheese (such as cheddar swiss block parmesan) unopened,DAIRY PRODUCTS,180,180,None,None,None,None,None,None
+Hard Cheese (such as cheddar swiss block parmesan) open,DAIRY PRODUCTS,21,180,None,None,None,None,None,None
+Soft Cheese (such as Brie Bel Paese),DAIRY PRODUCTS,7,180,None,None,None,None,None,None
+Shredded cheddar mozzarella etc.,DAIRY PRODUCTS,30,90,None,None,None,None,None,None
+Processed slices,DAIRY PRODUCTS,30,Doesn't freeze well,None,None,None,None,None,None
+Cottage cheese ricotta,DAIRY PRODUCTS,7,Doesn't freeze well,None,None,None,None,None,None
+Cream cheese,DAIRY PRODUCTS,14,Doesn't freeze well,None,None,None,None,None,None
+Cream whipping ultrapasteurized,DAIRY PRODUCTS,30,Do not freeze,None,None,None,None,None,None
+Whipped sweetened,DAIRY PRODUCTS,1,30,None,None,None,None,None,None
+Aerosol can real whipped cream,DAIRY PRODUCTS,21,Do not freeze,None,None,None,None,None,None
+Aerosol can nondairy topping,DAIRY PRODUCTS,90,Do not freeze,None,None,None,None,None,None
+Cream half-and-half,DAIRY PRODUCTS,3,120,None,None,None,None,None,None
+Dips sour cream based,DAIRY PRODUCTS,14,Do not freeze,None,None,None,None,None,None
+Egg substitutes liquid unopened,DAIRY PRODUCTS,10,Do not freeze,None,None,None,None,None,None
+Egg substitutes liquid opened,DAIRY PRODUCTS,3,Do not freeze,None,None,None,None,None,None
+Eggnog commercial,DAIRY PRODUCTS,3,180,None,None,None,None,None,None
+Eggs in shell,DAIRY PRODUCTS,21,Do not freeze,None,None,None,None,None,None
+Eggs raw whites yolks,DAIRY PRODUCTS,2,360,None,None,None,None,None,None
+Eggs hard cooked,DAIRY PRODUCTS,7,Doesn't freeze well,None,None,None,None,None,None
+Kefir (fermented milk) unopened,DAIRY PRODUCTS,7,Do not freeze,None,None,None,None,None,None
+Kefir (fermented milk) open,DAIRY PRODUCTS,1,Do not freeze,None,None,None,None,None,None
+Margarine,DAIRY PRODUCTS,180,360,None,None,None,None,None,None
+Milk plain or flavored,DAIRY PRODUCTS,7,90,None,None,None,None,None,None
+Sour cream,DAIRY PRODUCTS,7,Doesn't freeze well,None,None,None,None,None,None
+Yogurt,DAIRY PRODUCTS,7,30,None,None,None,None,None,None
+Tube cans of biscuits rolls pizza dough etc.,DOUGH,Use by date,Do not freeze,None,None,None,None,None,None
+Ready-to-bake pie crust,DOUGH,Use by date,60,None,None,None,None,None,None
+Cookie dough,DOUGH,Use by date,60,None,None,None,None,None,None
+Fresh pasta,PASTA,1,60,None,None,None,None,None,None
+Pesto Salsa unopened,PESTO_SALSA,3,30,None,None,None,None,None,None
+Pesto Salsa open,PESTO_SALSA,Use by date,30,None,None,None,None,None,None
+Soy or rice beverage refrigerated,SOY PRODUCTS,7,Do not freeze,None,None,None,None,None,None
+Tofu,SOY PRODUCTS,7,150,None,None,None,None,None,None
+Miso,SOY PRODUCTS,90,Do not freeze,None,None,None,None,None,None
+Lean fish (cod flounder haddock halibut sole etc.),FISH,1,180,None,None,None,None,None,None
+Lean fish (pollock ocean perch rockfish sea trout),FISH,1,120,None,None,None,None,None,None
+Fatty fish (bluefish mackerel mullet salmon tuna etc.),FISH,1,60,None,None,None,None,None,None
+Caviar fresh in jar unopened,FISH,2,Doesn't freeze well,None,None,None,None,None,None
+Caviar fresh in jar open,FISH,7,Doesn't freeze well,None,None,None,None,None,None
+Cooked fish all,FISH,3,30,None,None,None,None,None,None
+Surimi seafood,FISH,3,270,None,None,None,None,None,None
+Shrimp scallops crayfish squid,SHELLFISH,1,90,None,None,None,None,None,None
+Shucked clams mussels and oysters,SHELLFISH,1,90,None,None,None,None,None,None
+Crab meat fresh,SHELLFISH,1,120,None,None,None,None,None,None
+Crab meat pasteurized unopened,SHELLFISH,180,120,None,None,None,None,None,None
+Crab meat pasteurized open,SHELLFISH,3,120,None,None,None,None,None,None
+Crab legs king dungeness snow,SHELLFISH,5,270,None,None,None,None,None,None
+Live clams mussels crab and oysters,SHELLFISH,1,60,None,None,None,None,None,None
+Live lobsters,SHELLFISH,1,60,None,None,None,None,None,None
+Lobster tails,FROZEN ITEMS,None,None,None,90,2,None,None,None
+Cooked shellfish all,SHELLFISH,3,90,None,None,None,None,None,None
+Herring,SMOKED FISH,3,60,None,None,None,None,None,None
+Salmon whitefish cold-smoked,SMOKED FISH,5,60,None,None,None,None,None,None
+Salmon whitefish hot smoked,SMOKED FISH,14,180,None,None,None,None,None,None
+Beef lamb pork or veal chops steaks roasts,MEAT_FRESH,3,120,None,None,None,None,None,None
+Ground meat,MEAT_FRESH,1,90,None,None,None,None,None,None
+Variety meats (liver tongue chitterlings etc.),MEAT_FRESH,1,90,None,None,None,None,None,None
+Cooked meats (after home cooking),MEAT_FRESH,3,60,None,None,None,None,None,None
+Bacon,MEAT_SMOKED_PROCESSED,7,30,None,None,None,None,None,None
+Corned beef in pouch with pickling juices,MEAT_SMOKED_PROCESSED,5,30,None,None,None,None,None,None
+Ham canned ("keep refrigerated" label),MEAT_SMOKED_PROCESSED,180,Do not freeze,None,None,None,None,None,None
+Ham fully cooked whole,MEAT_SMOKED_PROCESSED,7,30,None,None,None,None,None,None
+Ham fully cooked slices or half,MEAT_SMOKED_PROCESSED,3,30,None,None,None,None,None,None
+Ham cook before eating,MEAT_SMOKED_PROCESSED,7,30,None,None,None,None,None,None
+Hot dogs sealed in package,MEAT_SMOKED_PROCESSED,14,30,None,None,None,None,None,None
+Hot dogs after opening,MEAT_SMOKED_PROCESSED,7,30,None,None,None,None,None,None
+Lunch meats sealed in package,POULTRY_COOKED_PROCESSED,14,30,None,None,None,None,None,None
+Lunch meats after opening,POULTRY_COOKED_PROCESSED,3,30,None,None,None,None,None,None
+Sausage raw bulk type,MEAT_SMOKED_PROCESSED,1,30,None,None,None,None,None,None
+Sausage smoked links patties,MEAT_SMOKED_PROCESSED,7,30,None,None,None,None,None,None
+Sausage hard dry (pepperoni) sliced,MEAT_SMOKED_PROCESSED,14,30,None,None,None,None,None,None
+Chicken or turkey whole,POULTRY_FRESH,1,360,None,None,None,None,None,None
+Chicken or turkey parts,POULTRY_FRESH,1,270,None,None,None,None,None,None
+Duckling or goose whole,POULTRY_FRESH,1,180,None,None,None,None,None,None
+Giblets,POULTRY_FRESH,1,90,None,None,None,None,None,None
+Chicken nuggets patties,POULTRY_COOKED_PROCESSED,1,30,None,None,None,None,None,None
+Cooked poultry dishes,POULTRY_COOKED_PROCESSED,3,120,None,None,None,None,None,None
+Fried chicken,POULTRY_COOKED_PROCESSED,3,120,None,None,None,None,None,None
+Ground turkey or chicken,POULTRY_COOKED_PROCESSED,1,90,None,None,None,None,None,None
+Pieces covered with broth or gravy,POULTRY_COOKED_PROCESSED,1,180,None,None,None,None,None,None
+Rotisserie chicken,POULTRY_COOKED_PROCESSED,3,120,None,None,None,None,None,None
+Apples,FRUIT_VEGETABLES,21,None,1,240,None,None,None,None
+Apricots,FRUIT_VEGETABLES,2,None,Until ripe,Do not freeze,None,None,None,None
+Avocados,FRUIT_VEGETABLES,3,None,Until ripe,Do not freeze,None,None,None,None
+Bananas,FRUIT_VEGETABLES,2,None,Until ripe,30,None,None,None,None
+Berries cherries,FRUIT_VEGETABLES,1,None,x,120,None,None,None,None
+Citrus Fruit,FRUIT_VEGETABLES,7,None,10,Do not freeze,None,None,None,None
+Coconuts fresh,FRUIT_VEGETABLES,14,None,7,180,None,None,None,None
+Grapes,FRUIT_VEGETABLES,7,None,1,30,None,None,None,None
+Kiwi Fruit,FRUIT_VEGETABLES,3,None,Until ripe,Do not freeze,None,None,None,None
+Melons,FRUIT_VEGETABLES,3,None,1,30,None,None,None,None
+Papaya mango,FRUIT_VEGETABLES,7,None,3,Do not freeze,None,None,None,None
+Peaches nectarines,FRUIT_VEGETABLES,3,None,Until ripe,60,None,None,None,None
+Pears Plums,FRUIT_VEGETABLES,3,None,3,Do not freeze,None,None,None,None
+Artichokes whole,FRUIT_VEGETABLES,7,None,1,Do not freez,None,None,None,None
+Asparagus,FRUIT_VEGETABLES,3,None,x,240,None,None,None,None
+Beans green or wax,FRUIT_VEGETABLES,3,None,x,240,None,None,None,None
+Beets,FRUIT_VEGETABLES,7,None,1,180,None,None,None,None
+Bok choy,FRUIT_VEGETABLES,2,None,x,300,None,None,None,None
+Broccoli raab rapini,FRUIT_VEGETABLES,3,None,x,300,None,None,None,None
+Brussels sprouts,FRUIT_VEGETABLES,3,None,x,300,None,None,None,None
+Cauliflower,FRUIT_VEGETABLES,3,None,x,300,None,None,None,None
+Cabbage,FRUIT_VEGETABLES,7,None,x,300,None,None,None,None
+Carrots parsnips,FRUIT_VEGETABLES,21,None,x,300,None,None,None,None
+Celery,FRUIT_VEGETABLES,7,None,x,300,None,None,None,None
+Corn on the cob,FRUIT_VEGETABLES,1,None,x,240,None,None,None,None
+Cucumbers,FRUIT_VEGETABLES,4,None,x,Do not freeze,None,None,None,None
+Eggplant,FRUIT_VEGETABLES,3,None,1,180,None,None,None,None
+Garlic,FRUIT_VEGETABLES,7,None,30,30,None,None,None,None
+Ginger Root,FRUIT_VEGETABLES,7,None,1,30,None,None,None,None
+Greens,FRUIT_VEGETABLES,1,None,x,300,None,None,None,None
+Herbs fresh,FRUIT_VEGETABLES,7,None,x,30,None,None,None,None
+Leeks,FRUIT_VEGETABLES,7,None,x,300,None,None,None,None
+Lettuce iceberg,FRUIT_VEGETABLES,7,None,x,Do not freeze,None,None,None,None
+Lettuce leaf,FRUIT_VEGETABLES,3,None,x,Do not freeze,None,None,None,None
+Mushrooms,FRUIT_VEGETABLES,2,None,x,300,None,None,None,None
+Okra,FRUIT_VEGETABLES,2,None,x,300,None,None,None,None
+Onions dry,FRUIT_VEGETABLES,60,None,14,300,None,None,None,None
+Onions Spring or green,FRUIT_VEGETABLES,7,None,14,300,None,None,None,None
+Parsley cilantro,FRUIT_VEGETABLES,7,None,x,30,None,None,None,None
+Peppers bell or chile,FRUIT_VEGETABLES,4,None,x,180,None,None,None,None
+Potatoes,FRUIT_VEGETABLES,7,None,30,300,None,None,None,None
+Radishes,FRUIT_VEGETABLES,10,None,x,Do not freeze,None,None,None,None
+Rutabagas,FRUIT_VEGETABLES,14,None,7,240,None,None,None,None
+Spinach,FRUIT_VEGETABLES,1,None,x,300,None,None,None,None
+Squash summer,FRUIT_VEGETABLES,4,None,x,300,None,None,None,None
+Squash winter,FRUIT_VEGETABLES,14,None,7,300,None,None,None,None
+Turnips,FRUIT_VEGETABLES,14,None,x,240,None,None,None,None
+Tomatoes,FRUIT_VEGETABLES,2,None,Until ripe,60,None,None,None,None
+Bagels,FROZEN ITEMS,None,None,None,60,7,None,None,None
+Bread Dough commercial,FROZEN ITEMS,None,None,None,Use-by date,4,None,None,None
+Burritos sandwiches,FROZEN ITEMS,None,None,None,60,3,None,None,None
+Egg substitutes,FROZEN ITEMS,None,None,None,360,Date on Carton,None,None,None
+Fish breaded,FROZEN ITEMS,None,None,None,90,Do not defrost. Cook frozen.,None,None,None
+Fish raw,FROZEN ITEMS,None,None,None,180,1,None,None,None
+Fruit such as berries melons,FROZEN ITEMS,None,None,None,120,4,None,None,None
+Guacamole,FROZEN ITEMS,None,None,None,90,3,None,None,None
+Ice cream,FROZEN ITEMS,None,None,None,60,x,None,None,None
+Juice concentrates,FROZEN ITEMS,None,None,None,180,7,None,None,None
+Pancakes Waffles,FROZEN ITEMS,None,None,None,60,3,None,None,None
+Sausages uncooked,FROZEN ITEMS,None,None,None,30,1,None,None,None
+Sausages precooked,FROZEN ITEMS,None,None,None,30,7,None,None,None
+Sherbet sorbet,FROZEN ITEMS,None,None,None,60,x,None,None,None
+Shrimp shellfish,FROZEN ITEMS,None,None,None,360,1,None,None,None
+Soy crumbles and hotdogs,FROZEN ITEMS,None,None,None,270,3,None,None,None
+Soy meat substitutes,FROZEN ITEMS,None,None,None,360,3,None,None,None
+Tempeh,FROZEN ITEMS,None,None,None,360,7,None,None,None
+Topping whipped,FROZEN ITEMS,None,None,None,180,14,None,None,None
+TV Dinners entrees breakfast,FROZEN ITEMS,None,None,None,90,Do not defrost. Cook frozen.,None,None,None
+Vegetables,FROZEN ITEMS,None,None,None,240,3,None,None,None
+Main dishes or meals hot or refrigerated,DELIFOOD,3,None,None,60,None,None,None,None
+Meats covered with gravy or broth,DELIFOOD,1,None,None,180,None,None,None,None
+Commercial brand vacuum packed dinners with USDA seal,DELIFOOD,14,None,None,Does not freeze well,None,None,None,None
+Chicken rotisserie or fried,DELIFOOD,3,None,None,120,None,None,None,None
+Luncheon meats store-sliced,DELIFOOD,3,None,None,30,None,None,None,None
+Pate,DELIFOOD,1,None,None,30,None,None,None,None
+Cheese store-sliced hard cheese such as cheddar or swiss,DELIFOOD,21,None,None,180,None,None,None,None
+Cheese soft (such as brie bel paese goat cheese fresh mozzarella),DELIFOOD,7,None,None,180,None,None,None,None
+Salads containing meat fish poultry or eggs,DELIFOOD,3,None,None,Don’t freeze.,None,None,None,None
+Salads vegetable,DELIFOOD,3,None,None,Don’t freeze.,None,None,None,None
+Side dishes such as cooked vegetables rice or potatoes,DELIFOOD,3,None,None,30,None,None,None,None
+Olives,DELIFOOD,14,None,None,Don’t freeze.,None,None,None,None
+Pudding,DELIFOOD,Package date,None,None,Don’t freeze.,None,None,None,None
+Fruit cut,DELIFOOD,4,None,None,Don’t freeze.,None,None,None,None
+Cheesecake,BAKING ITEMS,7,None,x,60,None,None,None,None
+Baby food jars or cans fruits & vegetables,SHELF STABLE,None,None,None,None,None,Use-by date,2,x
+Baby food jars or cans meats & eggs,SHELF STABLE,None,None,None,None,None,Use-by date,1,x
+Baby food jars or cans cereal dry mixes,SHELF STABLE,None,None,None,None,None,Use-by date,x,60
+Formula,SHELF STABLE,None,None,None,None,None,Use-by date,1,x
+Bacon Bits Imitation,SHELF STABLE,None,None,None,None,None,120,Refer to jar,120
+Beans Dried,SHELF STABLE,None,None,None,None,None,360,x,120
+Canned goods low acid (such as meat poultry fish gravy stew soups beans carrots corn pasta peas potatoes spinach),SHELF STABLE,None,None,None,None,None,2-5 years,3,x
+Canned goods high acid (such as juices fruit pickles sauerkraut tomato soup and foods in vinegar-based sauce),SHELF STABLE,None,None,None,None,None,360,5,x
+Cereal ready-to-eat,SHELF STABLE,None,None,None,None,None,180,x,90
+Cook before eating (oatmeal etc.),SHELF STABLE,None,None,None,None,None,360,x,180
+Coffee whole beans,SHELF STABLE,None,None,None,None,None,7,14,7
+Coffee non-vacuum bag ground in cans,SHELF STABLE,None,None,None,None,None,2 years,14,7
+Coffee instant jars and tins,SHELF STABLE,None,None,None,None,None,360,14,60
+Bread commercial,BAKING ITEMS,7,None,2,90,None,None,None,None
+Bread flat (tortillas pita),BAKING ITEMS,4,None,2,120,None,None,None,None
+Cakes angel food,BAKING ITEMS,7,None,1,60,None,None,None,None
+Cakes chiffon sponge,BAKING ITEMS,7,None,1,60,None,None,None,None
+Cakes chocolate,BAKING ITEMS,7,None,1,120,None,None,None,None
+Cakes fruit cake,BAKING ITEMS,180,None,30,360,None,None,None,None
+Cakes made from mix,BAKING ITEMS,7,None,3,120,None,None,None,None
+Cakes pound cake,BAKING ITEMS,7,None,3,180,None,None,None,None
+Cookies bakery or homemade,BAKING ITEMS,60,None,14,240,None,None,None,None
+Croissants butter,BAKING ITEMS,7,None,1,60,None,None,None,None
+Doughnuts glazed or cake,BAKING ITEMS,7,None,1,30,None,None,None,None
+Doughnuts dairy cream filled,BAKING ITEMS,3,None,x,x,None,None,None,None
+Eclairs dairy cream filled,BAKING ITEMS,3,None,x,x,None,None,None,None
+Muffins,BAKING ITEMS,7,None,1,60,None,None,None,None
+Pastries danish,BAKING ITEMS,7,None,1,60,None,None,None,None
+Pies cream,BAKING ITEMS,3,None,x,x,None,None,None,None
+Pies chiffon,BAKING ITEMS,1,None,x,x,None,None,None,None
+Pies fruit,BAKING ITEMS,7,None,1,240,None,None,None,None
+Pies mincemeat,BAKING ITEMS,7,None,2 hours,240,None,None,None,None
+Pies pecan,BAKING ITEMS,3,None,2 hours,30,None,None,None,None
+Pies pumpkin,BAKING ITEMS,3,None,2 hours,30,None,None,None,None
+Quiche,BAKING ITEMS,3,None,2 hours,60,None,None,None,None
+Rolls yeast baked,BAKING ITEMS,7,None,3,60,None,None,None,None
+Rolls yeast partially baked,BAKING ITEMS,7,None,Package date,60,None,None,None,None
+Rolls filled meat or vegetables,BAKING ITEMS,3,None,2 hours,60,None,None,None,None

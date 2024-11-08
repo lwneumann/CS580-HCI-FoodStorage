@@ -1,12 +1,14 @@
 BEVERAGES, FRUIT
 PRODUCT REFRIGERATED FROZEN
-Juice in cartons, fruit drinks, punch$3 weeks, unopened, 7-10 days open$8-12 months
+Juice in cartons, fruit drinks, punch unopened$3 weeks$8-12 months
+Juice in cartons, fruit drinks, punch open$7-10 days$8-12 months
 
 DAIRY PRODUCTS
 PRODUCT REFRIGERATED FROZEN
 Butter$1-3 months$6-9 months
 Buttermilk$1-2 weeks$3 months
-Hard Cheese (such as cheddar, swiss, block parmesan)$6 months unopened, 3-4 weeks opened$6 months
+Hard Cheese (such as cheddar, swiss, block parmesan) unopened$6 months $6 months
+Hard Cheese (such as cheddar, swiss, block parmesan) open$3-4 weeks$6 months
 Soft Cheese (such as Brie, Bel Paese)$1 week$6 months
 Shredded cheddar, mozzarella, etc.$1 month$3-4 months
 Processed slices$1-2 months$Doesn't freeze well
@@ -24,31 +26,32 @@ Eggnog, commercial $ 3-5 days $6 months
 Eggs, in shell $ 3-5 weeks  $ Do not freeze
 Eggs, raw whites, yolks$ 2-4 days   $ 12 months
 Eggs, hard cooked  $ 1 week $ Doesn't freeze well
-Kefir (fermented milk) $ 1 week after date; opened 1-2 days $  Do not freeze
+Kefir (fermented milk) unopened$ 1 week$  Do not freeze
+Kefir (fermented milk) open$1-2 days $  Do not freeze
 Margarine  $ 6 months $ 12 months
 Milk, plain or flavored $1 week $ 3 months
-Pudding Package date;$ 2 days after opening $ Do not freeze
 Sour cream $ 7-21 days $  Doesn't freeze well
 Yogurt $ 7-14 days  $  1-2 months
 
 DOUGH
 PRODUCT REFRIGERATED FROZEN
-Tube cans of biscuits, rolls, pizza dough, etc.$ Use-by date $Do not freeze
-Ready-to-bake pie crust$ Use-by date $2 months
-Cookie dough  $  Use by date, unopened or opened $2 months
+Tube cans of biscuits, rolls, pizza dough, etc.$ Use by date $Do not freeze
+Ready-to-bake pie crust$ Use by date $2 months
+Cookie dough  $ Use by date $2 months
 
 PASTA
 PRODUCT REFRIGERATED FROZEN
-fresh  $ 1-2 days or use-by date on package $ 2 months
+Fresh pasta  $ 1-2 days $ 2 months
 
-PESTO, SALSA
+PESTO_SALSA
 PRODUCT REFRIGERATED FROZEN
-Pesto, Salsa  $  Date on carton; 3 days after opening   $ 1-2 months
+Pesto, Salsa unopened $ 3 days $ 1-2 months
+Pesto, Salsa open $ Use by date  $ 1-2 month
 
 SOY PRODUCTS
 PRODUCT REFRIGERATED FROZEN
 Soy or rice beverage, refrigerated $ 7-10 days $  Do not freeze
-Tofu  $  1 week or package date$ 5 months
+Tofu  $  1 week$ 5 months
 Miso  $  3 months  $  Do not freeze
 
 FISH
@@ -56,16 +59,18 @@ PRODUCT REFRIGERATED FROZEN
 Lean fish (cod, flounder, haddock, halibut, sole, etc.)$ 1-2 days   $ 6-8 months
 Lean fish (pollock, ocean perch, rockfish, sea trout)  $ 1-2 days $   4 months
 Fatty fish (bluefish, mackerel, mullet, salmon, tuna, etc.) $1-2 days  $  2-3 months
-Caviar, fresh, in jar  $ 1-4 weeks; 2 days open $ Doesn't freeze well
+Caviar, fresh, in jar unopened $ 2 days $ Doesn't freeze well
+Caviar, fresh, in jar open $ 1-4 weeks $ Doesn't freeze well
 Cooked fish, all  $  3-4 days $   1-2 months
-Surimi seafood $ 3-4 days or package date $   9 months
+Surimi seafood $ 3-4 days $ 9 months
 
 SHELLFISH
 PRODUCT REFRIGERATED FROZEN
 Shrimp, scallops, crayfish, squid  $ 1-2 days  $  3-6 months
 Shucked clams, mussels and oysters $ 1-2 days  $  3-4 months
 Crab meat, fresh $   1-2 days  $  4 months
-Crab meat, pasteurized  $6 months unopened, 3-5 days opened $4 months
+Crab meat, pasteurized unopened $6 months $4 months
+Crab meat, pasteurized open $ 3-5 days $4 months
 Crab legs, king, dungeness, snow  $  5 days $ 9-12 months
 Live clams, mussels, crab and oysters  $ 1-2 days   $ 2-3 months
 Live lobsters $  1-2 days $   2-3 months
@@ -76,16 +81,16 @@ SMOKED FISH
 PRODUCT REFRIGERATED FROZEN
 Herring $3-4 days  $  2 months
 Salmon, whitefish, cold-smoked $ 5-8 days $   2 months
-Salmon, whitefish, hot smoked  $ 14 days or date on vacuum pkg $  6 months in vacuum pkg
+Salmon, whitefish, hot smoked  $ 14 days $ 6 months
 
-MEAT, FRESH
+MEAT_FRESH
 PRODUCT REFRIGERATED FROZEN
 Beef, lamb, pork or veal chops, steaks, roasts $ 3-5 days  $  4-12 months
 Ground meat$ 1-2 days  $  3-4 months
 Variety meats (liver, tongue, chitterlings, etc.) $  1-2 days  $  3-4 months
 Cooked meats (after home cooking)  $ 3-4 days $ 2-3 months
 
-MEAT, SMOKED OR PROCESSED
+MEAT_SMOKED_PROCESSED
 PRODUCT REFRIGERATED FROZEN
 Bacon $  1 week $ 1 month
 Corned beef, in pouch with pickling juices $ 5-7 days   $ 1 month
@@ -101,14 +106,14 @@ Sausage, raw, bulk type $1-2 days  $  1-2 months
 Sausage, smoked links, patties  $1 week$  1-2 months
 Sausage, hard, dry (pepperoni), sliced $ 2-3 weeks  $ 1-2 months
 
-POULTRY, FRESH
+POULTRY_FRESH
 PRODUCT REFRIGERATED FROZEN
 Chicken or turkey, whole $   1-2 days $   12 months
 Chicken or turkey, parts $   1-2 days $   9 months
 Duckling or goose, whole $   1-2 days $   6 months
 Giblets$ 1-2 days  $  3-4 months
 
-POULTRY, COOKED or PROCESSED
+POULTRY_COOKED_PROCESSED
 PRODUCT REFRIGERATED FROZEN
 Chicken nuggets, patties  $  1-2 days  $  1-3 months
 Cooked poultry dishes $  3-4 days $ 4-6 months
@@ -119,20 +124,20 @@ Lunch meats, after opening $ 3-5 days $   1-2 months
 Pieces covered with broth or gravy $ 1-2 days   $ 6 months
 Rotisserie chicken $ 3-4 days $4 months
 
-FRUIT, VEGETABLES
-PRODUCT SHELF REFRIGERATOR FREEZER
-Apples $ 1-2 days  $  3 weeks Cooked,$ 8 months
+FRUIT_VEGETABLES
+PRODUCT SHELF REFRIGERATED FREEZER
+Apples $ 1-2 days  $  3 weeks $ 8 months
 Apricots  $  Until ripe $ 2-3 days  $  Do not freeze
 Avocados  $  Until ripe $ 3-4 days  $  Do not freeze
-Bananas $Until ripe $ 2 days, skin will blacken  $  Whole peeled, 1 month
+Bananas $Until ripe $ 2 days$ 1 month
 Berries, cherries $  x $  1-2 days   $ 4 months
 Citrus Fruit  $  10 days$ 1-2 weeks $  Do not freeze
-Coconuts, fresh $1 week $ 2-3 weeks  $  Shredded, 6 months
-Grapes $ 1 day  $ 1 week $ Whole, 1 month
+Coconuts, fresh $1 week $ 2-3 weeks  $  6 months
+Grapes $ 1 day  $ 1 week $ 1 month
 Kiwi Fruit $ Until ripe $ 3-4 days   $ Do not freeze
-Melons $ 1-2 days  $  3-4 days   $ Balls, 1 month
+Melons $ 1-2 days  $  3-4 days   $ 1 month
 Papaya, mango $  3-5 days$  1 week  $ Do not freeze
-Peaches, nectarines$ Until ripe $ 3-4 days $   Sliced, lemon juice & sugar, 2 months
+Peaches, nectarines$ Until ripe $ 3-4 days $  2 months
 Pears, Plums $   3-5 days $  3-4 days $ Do not freeze
 Artichokes, whole$ 1-2 days$ 1-2 weeks$ Do not freez
 Asparagus $ x $ 3-4 days $8 months
@@ -161,9 +166,9 @@ Onions, dry $ 2-3 weeks $2 months $10-12 months
 Onions, Spring or green$ 2-3 weeks $ 1-2 weeks $ 10-12 months
 Parsley, cilantro $ x $ 1 week $ 1-2 months
 Peppers, bell or chile $ x $4-5 days $6-8 months
-Potatoes$ 1-2 months$ 1-2 weeks$ Cooked and mashed, 10-12 months
+Potatoes$ 1-2 months$ 1-2 weeks$ 10-12 months
 Radishes $x$10-14 days $Do not freeze
-Rutabagas $1week $2 weeks $8-10 months
+Rutabagas $1 week $2 weeks $8-10 months
 Spinach $ x $ 1-2 days $ 10-12 months
 Squash, summer$ x $ 4-5 days $ 10-12 months
 Squash, winter $ 1 week $2 weeks$10-12 months
@@ -173,7 +178,7 @@ Tomatoes$ Until ripe$ 2-3 days$ 2 month
 FROZEN ITEMS
 PRODUCT FREEZER FRIDGE_AFTER_THAW
 Bagels $2 months$ 1-2 weeks
-Bread Dough, commercial$ Use-by date $After baking, 4-7 days
+Bread Dough, commercial$ Use-by date $ 4-7 days
 Burritos, sandwiches $2 months$ 3-4 days
 Egg substitutes$ 12 months $Date on Carton
 Fish, breaded$ 3-6 months$ Do not defrost. Cook frozen.
@@ -196,7 +201,7 @@ TV Dinners, entrees, breakfast$ 3 months $Do not defrost. Cook frozen.
 Vegetables$ 8 months$ 3-4 days
 
 DELIFOOD
-PRODUCT REFRIGERATOR FREEZER
+PRODUCT REFRIGERATED FREEZER
 Main dishes or meals, hot or refrigerated $3-4 days$ 2-3 months
 Meats covered with gravy or broth $1-2 days $6 months
 Commercial brand vacuum packed dinners with USDA seal$ 2 weeks $Does not freeze well
@@ -209,8 +214,8 @@ Salads containing meat, fish, poultry or eggs $3-4 days$ Don’t freeze.
 Salads, vegetable $3-5 days$ Don’t freeze.
 Side dishes such as cooked vegetables, rice or potatoes $3-4 days $1-2 months
 Olives$ 2 weeks $Don’t freeze.
-Pudding$ Package date; 2 days after opening$ Don’t freeze.
-Fruit, cut$ Package date; 4 days after opening $Don’t freeze.
+Pudding$ Package date$ Don’t freeze.
+Fruit, cut$ 4 days $Don’t freeze.
 Cheesecake $1 week $2-3 month
 
 SHELF STABLE
@@ -225,12 +230,12 @@ Canned goods, low acid (such as meat, poultry, fish, gravy, stew, soups, beans, 
 Canned goods, high acid (such as juices, fruit, pickles, sauerkraut, tomato soup, and foods in vinegar-based sauce) $12-18 months$ 5-7 days$x
 Cereal, ready-to-eat $ 6-12 months $x$ 3 months
 Cook before eating (oatmeal, etc.)$  12 months $ x $ 6-12 months
-Coffee, whole beans, $ 1-3 weeks $3-4 months frozen 2 weeks refrigerated $ 1 week
-Coffee, non-vacuum bag, ground, in cans $ 2 years $ 3-4 months frozen 2 weeks refrigerated $ 1 week
-Coffee, instant, jars and tins $ 12 months $3-4 months frozen 2 weeks refrigerated $ 2-3 months
+Coffee, whole beans, $ 1-3 weeks $ 2 weeks  $ 1 week
+Coffee, non-vacuum bag, ground, in cans $ 2 years $ 2 weeks  $ 1 week
+Coffee, instant, jars and tins $ 12 months $ 2 weeks  $ 2-3 months
 
 BAKING ITEMS
-PRODUCT SHELF REFRIGERATOR FREEZER
+PRODUCT SHELF REFRIGERATED FREEZER
 Bread, commercial $ 2-4 days$ 7-14 days $3 months
 Bread, flat (tortillas, pita) $2-4 days$ 4-7 days $4 months
 Cakes, angel food $1-2 days$ 1 week $2 months
