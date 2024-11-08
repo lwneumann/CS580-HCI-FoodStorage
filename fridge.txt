@@ -1,0 +1,2 @@
+Food(Buttermilk, DAIRY PRODUCTS, 7, '07-11-24', datetime.datetime(2024, 11, 14, 0, 0))
+Food(Juice in cartons fruit drinks punch open, BEVERAGES FRUIT, 7, '07-11-24', datetime.datetime(2024, 11, 14, 0, 0))

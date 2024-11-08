@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block title %}Add Food{% endblock %}
+
+{% block content %}
+
+<div style="display: flex; flex-direction: row; justify-content: space-evenly;">
+    <div style="width: 38%; border-style: solid;">
+        <form method="POST"> 
+            <input name="foodInput"></input> 
+            <input type="submit" value="Search"> 
+        </form> 
+    </div>
+
+    <div style="width: 58%; border-style: solid;">
+        {% for f in food_search(f_search) %}
+            <div style="display: flex;">
+                <form action="{{ url_for('add_food', addf = f) }}" method="post" class="food-button">
+                    <div class="addCircle" onclick="this.parentElement.submit();"></div>
+                </form>
+                <div class="food-item">{{ f }}</div>
+            </div>
+        {% endfor %}
+    </div>
+</div>
+
+{% endblock %}

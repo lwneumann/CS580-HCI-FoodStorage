@@ -48,6 +48,45 @@ tr:nth-child(odd) {
     background-color: lightblue;
 }
 
-p {
-    color: white;
+
+/* Add Button */
+.addCircle {
+    width: 5vw;
+    height: 5vw;
+    background-color: green;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  .addCircle::before, .addCircle::after {
+    content: "";
+    position: absolute;
+    background-color: white;
+  }
+  .addCircle::before {
+    width: 60%;
+    height: 10%;
+  }
+  .addCircle::after {
+    width: 10%;
+    height: 60%;
+  }
+
+/* Food Button */
+.food-grid {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 10px;
+    align-items: center;
+    max-width: 400px; /* Optional: Adjust width */
+}
+
+.food-item {
+    padding: 5px;
+}
+
+.food-button {
+    margin: 0;
 }

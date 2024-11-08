@@ -42,6 +42,7 @@ def turn_raw_to_csv():
             # For all food, for all header items
             if h in food[f].keys():
                 entry = food[f][h].replace(',', '')
+                entry = entry.replace('x', "None")
 
                 if "month" in entry or "week" in entry or "day" in entry:
                     duration, scale = entry.split(' ')
@@ -49,6 +50,7 @@ def turn_raw_to_csv():
                     scale = scale.replace('s', '')
 
                     to_days = {
+                        "year": 365,
                         "month": 30,
                         "week": 7,
                         "day": 1    

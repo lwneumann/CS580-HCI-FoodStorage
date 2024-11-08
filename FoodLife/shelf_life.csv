@@ -88,7 +88,7 @@ Apples,FRUIT_VEGETABLES,21,None,1,240,None,None,None,None
 Apricots,FRUIT_VEGETABLES,2,None,Until ripe,Do not freeze,None,None,None,None
 Avocados,FRUIT_VEGETABLES,3,None,Until ripe,Do not freeze,None,None,None,None
 Bananas,FRUIT_VEGETABLES,2,None,Until ripe,30,None,None,None,None
-Berries cherries,FRUIT_VEGETABLES,1,None,x,120,None,None,None,None
+Berries cherries,FRUIT_VEGETABLES,1,None,None,120,None,None,None,None
 Citrus Fruit,FRUIT_VEGETABLES,7,None,10,Do not freeze,None,None,None,None
 Coconuts fresh,FRUIT_VEGETABLES,14,None,7,180,None,None,None,None
 Grapes,FRUIT_VEGETABLES,7,None,1,30,None,None,None,None
@@ -98,39 +98,39 @@ Papaya mango,FRUIT_VEGETABLES,7,None,3,Do not freeze,None,None,None,None
 Peaches nectarines,FRUIT_VEGETABLES,3,None,Until ripe,60,None,None,None,None
 Pears Plums,FRUIT_VEGETABLES,3,None,3,Do not freeze,None,None,None,None
 Artichokes whole,FRUIT_VEGETABLES,7,None,1,Do not freez,None,None,None,None
-Asparagus,FRUIT_VEGETABLES,3,None,x,240,None,None,None,None
-Beans green or wax,FRUIT_VEGETABLES,3,None,x,240,None,None,None,None
+Asparagus,FRUIT_VEGETABLES,3,None,None,240,None,None,None,None
+Beans green or waNone,FRUIT_VEGETABLES,3,None,None,240,None,None,None,None
 Beets,FRUIT_VEGETABLES,7,None,1,180,None,None,None,None
-Bok choy,FRUIT_VEGETABLES,2,None,x,300,None,None,None,None
-Broccoli raab rapini,FRUIT_VEGETABLES,3,None,x,300,None,None,None,None
-Brussels sprouts,FRUIT_VEGETABLES,3,None,x,300,None,None,None,None
-Cauliflower,FRUIT_VEGETABLES,3,None,x,300,None,None,None,None
-Cabbage,FRUIT_VEGETABLES,7,None,x,300,None,None,None,None
-Carrots parsnips,FRUIT_VEGETABLES,21,None,x,300,None,None,None,None
-Celery,FRUIT_VEGETABLES,7,None,x,300,None,None,None,None
-Corn on the cob,FRUIT_VEGETABLES,1,None,x,240,None,None,None,None
-Cucumbers,FRUIT_VEGETABLES,4,None,x,Do not freeze,None,None,None,None
+Bok choy,FRUIT_VEGETABLES,2,None,None,300,None,None,None,None
+Broccoli raab rapini,FRUIT_VEGETABLES,3,None,None,300,None,None,None,None
+Brussels sprouts,FRUIT_VEGETABLES,3,None,None,300,None,None,None,None
+Cauliflower,FRUIT_VEGETABLES,3,None,None,300,None,None,None,None
+Cabbage,FRUIT_VEGETABLES,7,None,None,300,None,None,None,None
+Carrots parsnips,FRUIT_VEGETABLES,21,None,None,300,None,None,None,None
+Celery,FRUIT_VEGETABLES,7,None,None,300,None,None,None,None
+Corn on the cob,FRUIT_VEGETABLES,1,None,None,240,None,None,None,None
+Cucumbers,FRUIT_VEGETABLES,4,None,None,Do not freeze,None,None,None,None
 Eggplant,FRUIT_VEGETABLES,3,None,1,180,None,None,None,None
 Garlic,FRUIT_VEGETABLES,7,None,30,30,None,None,None,None
 Ginger Root,FRUIT_VEGETABLES,7,None,1,30,None,None,None,None
-Greens,FRUIT_VEGETABLES,1,None,x,300,None,None,None,None
-Herbs fresh,FRUIT_VEGETABLES,7,None,x,30,None,None,None,None
-Leeks,FRUIT_VEGETABLES,7,None,x,300,None,None,None,None
-Lettuce iceberg,FRUIT_VEGETABLES,7,None,x,Do not freeze,None,None,None,None
-Lettuce leaf,FRUIT_VEGETABLES,3,None,x,Do not freeze,None,None,None,None
-Mushrooms,FRUIT_VEGETABLES,2,None,x,300,None,None,None,None
-Okra,FRUIT_VEGETABLES,2,None,x,300,None,None,None,None
+Greens,FRUIT_VEGETABLES,1,None,None,300,None,None,None,None
+Herbs fresh,FRUIT_VEGETABLES,7,None,None,30,None,None,None,None
+Leeks,FRUIT_VEGETABLES,7,None,None,300,None,None,None,None
+Lettuce iceberg,FRUIT_VEGETABLES,7,None,None,Do not freeze,None,None,None,None
+Lettuce leaf,FRUIT_VEGETABLES,3,None,None,Do not freeze,None,None,None,None
+Mushrooms,FRUIT_VEGETABLES,2,None,None,300,None,None,None,None
+Okra,FRUIT_VEGETABLES,2,None,None,300,None,None,None,None
 Onions dry,FRUIT_VEGETABLES,60,None,14,300,None,None,None,None
 Onions Spring or green,FRUIT_VEGETABLES,7,None,14,300,None,None,None,None
-Parsley cilantro,FRUIT_VEGETABLES,7,None,x,30,None,None,None,None
-Peppers bell or chile,FRUIT_VEGETABLES,4,None,x,180,None,None,None,None
+Parsley cilantro,FRUIT_VEGETABLES,7,None,None,30,None,None,None,None
+Peppers bell or chile,FRUIT_VEGETABLES,4,None,None,180,None,None,None,None
 Potatoes,FRUIT_VEGETABLES,7,None,30,300,None,None,None,None
-Radishes,FRUIT_VEGETABLES,10,None,x,Do not freeze,None,None,None,None
+Radishes,FRUIT_VEGETABLES,10,None,None,Do not freeze,None,None,None,None
 Rutabagas,FRUIT_VEGETABLES,14,None,7,240,None,None,None,None
-Spinach,FRUIT_VEGETABLES,1,None,x,300,None,None,None,None
-Squash summer,FRUIT_VEGETABLES,4,None,x,300,None,None,None,None
+Spinach,FRUIT_VEGETABLES,1,None,None,300,None,None,None,None
+Squash summer,FRUIT_VEGETABLES,4,None,None,300,None,None,None,None
 Squash winter,FRUIT_VEGETABLES,14,None,7,300,None,None,None,None
-Turnips,FRUIT_VEGETABLES,14,None,x,240,None,None,None,None
+Turnips,FRUIT_VEGETABLES,14,None,None,240,None,None,None,None
 Tomatoes,FRUIT_VEGETABLES,2,None,Until ripe,60,None,None,None,None
 Bagels,FROZEN ITEMS,None,None,None,60,7,None,None,None
 Bread Dough commercial,FROZEN ITEMS,None,None,None,Use-by date,4,None,None,None
@@ -140,12 +140,12 @@ Fish breaded,FROZEN ITEMS,None,None,None,90,Do not defrost. Cook frozen.,None,No
 Fish raw,FROZEN ITEMS,None,None,None,180,1,None,None,None
 Fruit such as berries melons,FROZEN ITEMS,None,None,None,120,4,None,None,None
 Guacamole,FROZEN ITEMS,None,None,None,90,3,None,None,None
-Ice cream,FROZEN ITEMS,None,None,None,60,x,None,None,None
+Ice cream,FROZEN ITEMS,None,None,None,60,None,None,None,None
 Juice concentrates,FROZEN ITEMS,None,None,None,180,7,None,None,None
 Pancakes Waffles,FROZEN ITEMS,None,None,None,60,3,None,None,None
 Sausages uncooked,FROZEN ITEMS,None,None,None,30,1,None,None,None
 Sausages precooked,FROZEN ITEMS,None,None,None,30,7,None,None,None
-Sherbet sorbet,FROZEN ITEMS,None,None,None,60,x,None,None,None
+Sherbet sorbet,FROZEN ITEMS,None,None,None,60,None,None,None,None
 Shrimp shellfish,FROZEN ITEMS,None,None,None,360,1,None,None,None
 Soy crumbles and hotdogs,FROZEN ITEMS,None,None,None,270,3,None,None,None
 Soy meat substitutes,FROZEN ITEMS,None,None,None,360,3,None,None,None
@@ -167,17 +167,17 @@ Side dishes such as cooked vegetables rice or potatoes,DELIFOOD,3,None,None,30,N
 Olives,DELIFOOD,14,None,None,Don’t freeze.,None,None,None,None
 Pudding,DELIFOOD,Package date,None,None,Don’t freeze.,None,None,None,None
 Fruit cut,DELIFOOD,4,None,None,Don’t freeze.,None,None,None,None
-Cheesecake,BAKING ITEMS,7,None,x,60,None,None,None,None
-Baby food jars or cans fruits & vegetables,SHELF STABLE,None,None,None,None,None,Use-by date,2,x
-Baby food jars or cans meats & eggs,SHELF STABLE,None,None,None,None,None,Use-by date,1,x
-Baby food jars or cans cereal dry mixes,SHELF STABLE,None,None,None,None,None,Use-by date,x,60
-Formula,SHELF STABLE,None,None,None,None,None,Use-by date,1,x
+Cheesecake,BAKING ITEMS,7,None,None,60,None,None,None,None
+Baby food jars or cans fruits & vegetables,SHELF STABLE,None,None,None,None,None,Use-by date,2,None
+Baby food jars or cans meats & eggs,SHELF STABLE,None,None,None,None,None,Use-by date,1,None
+Baby food jars or cans cereal dry miNonees,SHELF STABLE,None,None,None,None,None,Use-by date,None,60
+Formula,SHELF STABLE,None,None,None,None,None,Use-by date,1,None
 Bacon Bits Imitation,SHELF STABLE,None,None,None,None,None,120,Refer to jar,120
-Beans Dried,SHELF STABLE,None,None,None,None,None,360,x,120
-Canned goods low acid (such as meat poultry fish gravy stew soups beans carrots corn pasta peas potatoes spinach),SHELF STABLE,None,None,None,None,None,2-5 years,3,x
-Canned goods high acid (such as juices fruit pickles sauerkraut tomato soup and foods in vinegar-based sauce),SHELF STABLE,None,None,None,None,None,360,5,x
-Cereal ready-to-eat,SHELF STABLE,None,None,None,None,None,180,x,90
-Cook before eating (oatmeal etc.),SHELF STABLE,None,None,None,None,None,360,x,180
+Beans Dried,SHELF STABLE,None,None,None,None,None,360,None,120
+Canned goods low acid (such as meat poultry fish gravy stew soups beans carrots corn pasta peas potatoes spinach),SHELF STABLE,None,None,None,None,None,2-5 years,3,None
+Canned goods high acid (such as juices fruit pickles sauerkraut tomato soup and foods in vinegar-based sauce),SHELF STABLE,None,None,None,None,None,360,5,None
+Cereal ready-to-eat,SHELF STABLE,None,None,None,None,None,180,None,90
+Cook before eating (oatmeal etc.),SHELF STABLE,None,None,None,None,None,360,None,180
 Coffee whole beans,SHELF STABLE,None,None,None,None,None,7,14,7
 Coffee non-vacuum bag ground in cans,SHELF STABLE,None,None,None,None,None,2 years,14,7
 Coffee instant jars and tins,SHELF STABLE,None,None,None,None,None,360,14,60
@@ -187,17 +187,17 @@ Cakes angel food,BAKING ITEMS,7,None,1,60,None,None,None,None
 Cakes chiffon sponge,BAKING ITEMS,7,None,1,60,None,None,None,None
 Cakes chocolate,BAKING ITEMS,7,None,1,120,None,None,None,None
 Cakes fruit cake,BAKING ITEMS,180,None,30,360,None,None,None,None
-Cakes made from mix,BAKING ITEMS,7,None,3,120,None,None,None,None
+Cakes made from miNone,BAKING ITEMS,7,None,3,120,None,None,None,None
 Cakes pound cake,BAKING ITEMS,7,None,3,180,None,None,None,None
 Cookies bakery or homemade,BAKING ITEMS,60,None,14,240,None,None,None,None
 Croissants butter,BAKING ITEMS,7,None,1,60,None,None,None,None
 Doughnuts glazed or cake,BAKING ITEMS,7,None,1,30,None,None,None,None
-Doughnuts dairy cream filled,BAKING ITEMS,3,None,x,x,None,None,None,None
-Eclairs dairy cream filled,BAKING ITEMS,3,None,x,x,None,None,None,None
+Doughnuts dairy cream filled,BAKING ITEMS,3,None,None,None,None,None,None,None
+Eclairs dairy cream filled,BAKING ITEMS,3,None,None,None,None,None,None,None
 Muffins,BAKING ITEMS,7,None,1,60,None,None,None,None
 Pastries danish,BAKING ITEMS,7,None,1,60,None,None,None,None
-Pies cream,BAKING ITEMS,3,None,x,x,None,None,None,None
-Pies chiffon,BAKING ITEMS,1,None,x,x,None,None,None,None
+Pies cream,BAKING ITEMS,3,None,None,None,None,None,None,None
+Pies chiffon,BAKING ITEMS,1,None,None,None,None,None,None,None
 Pies fruit,BAKING ITEMS,7,None,1,240,None,None,None,None
 Pies mincemeat,BAKING ITEMS,7,None,2 hours,240,None,None,None,None
 Pies pecan,BAKING ITEMS,3,None,2 hours,30,None,None,None,None

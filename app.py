@@ -1,5 +1,5 @@
 from flask import Flask, render_template, url_for, request, redirect
-import food
+import food, search
 
 
 # --- Setup ---
@@ -12,6 +12,23 @@ fridge.stock()
 @app.route('/')
 def index():
     return render_template('main.html')
+
+# Storage
+@app.route('/storage/', methods=['GET', 'POST'])
+def storage():
+    return render_template('storage.html')
+
+# Add
+@app.route('/add/', methods=['GET', 'POST'])
+def add():
+    text = request.form.get('foodInput')
+    return render_template('add.html', f_search = text)
+
+@app.route('/add/<string:addf>/', methods=['GET', 'POST'])
+def add_food(addf):
+    global fridge
+    fridge.add(addf)
+    return redirect('/storage/')
 
 # Example Page
 @app.route('/example/')
@@ -41,4 +58,4 @@ def internal_error(e):
 @app.context_processor
 def utility_processor():
     global fridge
-    return dict(get_food=fridge.get_all)
+    return dict(get_food=fridge.get_all, food_search=search.search)

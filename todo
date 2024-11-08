@@ -6,14 +6,3 @@ Page
 Backend
  - Save as file
  - Read file
-
- - 
-
-
-
- food = {
-    "banana" : [
-        "PRODUCT": "banana",
-        "FRIDGE": "1 day"
-    ]
- }

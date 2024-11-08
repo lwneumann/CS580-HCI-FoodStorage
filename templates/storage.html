@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block title %}Food{% endblock %}
+
+{% block content %}
+
+{% for f in get_food() %}
+    <p>{{f}}</p>
+{% endfor %}
+
+<div style="position: fixed; right: 30px; bottom: 30px;">
+    <a href="{{url_for('add')}}" class="navButton">
+        <div class="addCircle"></div>
+    </a>
+</div>
+
+{% endblock %}
