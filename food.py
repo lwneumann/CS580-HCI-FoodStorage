@@ -12,8 +12,6 @@ class Food:
         self.expiration_text = f'{exp_text[1]}/{exp_text[2]}/{exp_text[0][-2:]}'
         self.days_left = (self.expiration - datetime.now()).days
         self.color = self.get_color()
-        if "Buttermilk" in name:
-            print(self.color)
         return
     
     def get_color(self):
@@ -115,3 +113,9 @@ class Fridge:
     def get_all(self):
         # Returns all food
         return [(i, f) for i, f in enumerate(self.contents)]
+
+    def count_food(self):
+        counts = [0 for i in range(5)]
+        for f in self.contents:
+            counts[["green", "yellow", "orange", "red", "black"].index(f.color)] += 1
+        return counts

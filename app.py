@@ -72,4 +72,4 @@ def internal_error(e):
 @app.context_processor
 def utility_processor():
     global fridge
-    return dict(get_food=fridge.get_all, food_search=search.search)
+    return dict(get_food=fridge.get_all, food_search=search.search, food_counts=fridge.count_food())
