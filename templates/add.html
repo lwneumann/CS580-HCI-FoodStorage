@@ -14,7 +14,7 @@
 
     <div style="width: 58%; border-style: solid;">
         {% for f in food_search(f_search) %}
-            <div style="display: flex;">
+            <div class="addBox">
                 <form action="{{ url_for('add_food', addf = f) }}" method="post" class="food-button">
                     <div class="addCircle" onclick="this.parentElement.submit();"></div>
                 </form>

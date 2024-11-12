@@ -8,10 +8,11 @@ class Food:
         self.storage_time = storage_time
         self.added = added
         self.expiration = datetime.strptime(added, "%d-%m-%y") + timedelta(days=int(storage_time))
+        self.expiration_text = str(self.expiration).split(" ")[0]
         return
-    
+
     def __repr__(self):
-        return f"Food({self.name}, {self.food_group}, {self.storage_time}, {repr(self.added)}, {repr(self.expiration)})"
+        return f"Food('{self.name}', '{self.food_group}', {self.storage_time}, {repr(self.added)})"
 
     def get_info(self):
         return self.name, self.food_group, self.storage_time, self.added
@@ -22,6 +23,7 @@ class Fridge:
         # Initializes
         self.contents = []
         self.get_csv()
+        self.stock()
         return
     
     def get_csv(self):
@@ -54,6 +56,12 @@ class Fridge:
 
     def stock(self):
         # Checks Local File to populate
+        with open("fridge.txt", "r+") as file:
+            text = file.read()
+            for f in text.split('\n'):
+                if f != "":
+                    f = eval(f)
+                    self.add(f)
 
         self.sort()
         return
@@ -67,20 +75,26 @@ class Fridge:
         return
 
     def add(self, f):
-        # Smart insert so don't need to sort every time 
-        for i, fod in enumerate(self.food_life):
-            if fod[0] == f:
-                f = Food(
-                        self.food_life[i][0],
-                        self.food_life[i][1],
-                        self.food_life[i][2],
-                        datetime.today().strftime('%d-%m-%y')
-                    )
-                self.contents.append(f)
-                self.sort()
-                self.save()
-                return
+        # TODO Smart insert so don't need to sort every time 
+        if isinstance(f, str):
+            for i, fod in enumerate(self.food_life):
+                if fod[0] == f:
+                    f = Food(
+                            self.food_life[i][0],
+                            self.food_life[i][1],
+                            self.food_life[i][2],
+                            datetime.today().strftime('%d-%m-%y')
+                        )
+                    self.contents.append(f)
+                    self.sort()
+                    self.save()
+
+        elif isinstance(f, Food):
+            self.contents.append(f)
+            self.sort()
+
+        return
 
     def get_all(self):
         # Returns all food
-        return [f for f in self.contents]
+        return [(i, f) for i, f in enumerate(self.contents)]
