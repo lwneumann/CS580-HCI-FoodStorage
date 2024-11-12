@@ -1,5 +1,3 @@
 Food('Lean fish (pollock ocean perch rockfish sea trout)', 'FISH', 1, '11-11-24')
-Food('Soft Cheese (such as Brie Bel Paese)', 'DAIRY PRODUCTS', 7, '11-11-24')
-Food('Citrus Fruit', 'FRUIT_VEGETABLES', 7, '11-11-24')
 Food('Buttermilk', 'DAIRY PRODUCTS', 7, '11-11-24')
-Food('Buttermilk', 'DAIRY PRODUCTS', 7, '11-11-24')
+Food('Juice in cartons fruit drinks punch unopened', 'BEVERAGES FRUIT', 21, '11-11-24')

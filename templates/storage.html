@@ -4,25 +4,58 @@
 
 {% block content %}
 <div class="body">
+
+<!-- Split -->
+<div style="display: flex; flex-direction: row; justify-content: space-evenly;">
+    <!-- Left -->
+    <div style="width: 48%;">
+
+        {% for f in get_food() %}
+        <div class="foodBox">
+            <form action="{{ url_for('remove_item', index=f[0] ) }}" method="post">
+                <button class="delete-btn">
+                    <span class="line line1"></span>
+                    <span class="line line2"></span>
+                </button>
+            </form>
+            <!-- <button class="delete-btn">&times;</button> -->
+            <p>{{f[1].expiration_text}}: {{f[1].name}}</p>
+        </div>
+        {% endfor %}
+    </div>
+
+    <!-- Right -->
+    <div style="width: 48%;">
+        <div>
+            <form method="POST"> 
+                <input name="foodInput"></input> 
+                <input type="submit" value="Search"> 
+            </form> 
+        </div>
+    
+        <div>
+            {% for f in food_search(f_search) %}
+                <div class="addBox">
+                    <form action="{{ url_for('add_food', addf = f) }}" method="post" class="food-button">
+                        <div class="addCircle" onclick="this.parentElement.submit();"></div>
+                    </form>
+                <div class="food-item">{{ f }}</div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+<!-- End of split -->
+</div>
+
+<!-- Body -->
+</div>
+{% endblock %}
+
+
+<!-- 
 <div style="position: fixed; right: 30px; bottom: 30px;">
     <a href="{{url_for('add')}}" class="navButton">
         <div class="addCircle"></div>
     </a>
 </div>
-
-
-{% for f in get_food() %}
-    <div class="foodBox">
-        <form action="{{ url_for('remove_item', index=f[0] ) }}" method="post">
-            <button class="delete-btn">
-                <span class="line line1"></span>
-                <span class="line line2"></span>
-            </button>
-        </form>
-        <!-- <button class="delete-btn">&times;</button> -->
-        <p>{{f[1].expiration_text}}: {{f[1].name}}</p>
-    </div>
-{% endfor %}
-
-</div>
-{% endblock %}
+-->

@@ -18,26 +18,31 @@ def index():
 @app.route('/storage/', methods=['GET', 'POST'])
 def storage():
     global fridge
+    text = request.form.get('foodInput')
+    return render_template('storage.html', f_search = text)
 
-    print([ (type(f), f) for f in fridge.contents])
-    return render_template('storage.html')
+@app.route('/storage/<string:addf>/', methods=['GET', 'POST'])
+def add_food(addf):
+    global fridge
+    fridge.add(addf)
+    return redirect('/storage/')
 
 @app.route("/remove/<int:index>/", methods = ["POST"])
 def remove_item(index):
     fridge.contents.pop(int(index))
     return redirect('/storage/')
 
-# Add
-@app.route('/add/', methods=['GET', 'POST'])
-def add():
-    text = request.form.get('foodInput')
-    return render_template('add.html', f_search = text)
+# Add TO BE KILLED
+# @app.route('/add/', methods=['GET', 'POST'])
+# def add():
+#     text = request.form.get('foodInput')
+#     return render_template('add.html', f_search = text)
 
-@app.route('/add/<string:addf>/<list:filters>', methods=['GET', 'POST'])
-def add_food(addf, filters=[]):
-    global fridge
-    fridge.add(addf, filters)
-    return redirect('/storage/')
+# @app.route('/add/<string:addf>/<list:filters>', methods=['GET', 'POST'])
+# def add_food(addf, filters=[]):
+    # global fridge
+    # fridge.add(addf, filters)
+    # return redirect('/storage/')
 
 # Example Page
 @app.route('/example/')

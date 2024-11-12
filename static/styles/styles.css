@@ -3,7 +3,7 @@ html {
     overscroll-behavior: none;
 }
 body {
-    font-size: 1rem;
+    font-size: 1.5rem;
     margin: 0;
     padding: 10px;
     min-height: 100vh;
@@ -59,8 +59,8 @@ tr:nth-child(odd) {
 
 /* Add Button */
 .addCircle {
-    width: 5vw;
-    height: 5vw;
+    width: 32px;
+    height: 32px;
     background-color: green;
     border-radius: 50%;
     display: flex;
@@ -103,16 +103,19 @@ tr:nth-child(odd) {
 .addBox {
     display: flex;
     margin: 10px;
+    padding: 5px;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #6480cc;
 }
 
 /* Food Box */
 .foodBox {
     position: relative;
-    width: 50%;              /* Adjust the width as needed */
-    padding: 20px;
+    padding: 10px;
     margin-bottom: 20px;
-    background-color: #4a62a4; /* Background color for the box */
-    border-radius: 10px;       /* Rounded edges */
+    background-color: #4a62a4;
+    border-radius: 10px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Slight shadow */
   }
 
@@ -138,17 +141,14 @@ tr:nth-child(odd) {
     height: 3px;
     background-color: #ff4d4d;
     transition: transform 0.2s ease;
-}
-  
-/* Rotations to form the X shape */
-.delete-btn .line1 {
-    transform: rotate(45deg);
-}
-.delete-btn .line2 {
-    transform: rotate(-45deg);
 }  
-/* Scale effect on hover */
-.delete-btn:hover .line {
-    transform: scale(1.2);
-    background-color: #ff3333;
-}
+  .delete-btn .line1 {
+      transform: rotate(45deg);
+  }
+  .delete-btn .line2 {
+       transform: rotate(-45deg);
+  }
+  .delete-btn:hover .line {
+      transform: scale(1.2);
+      background-color: #ff3333;
+  }
