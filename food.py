@@ -7,9 +7,26 @@ class Food:
         self.food_group = food_group
         self.storage_time = storage_time
         self.added = added
-        self.expiration = datetime.strptime(added, "%d-%m-%y") + timedelta(days=int(storage_time))
-        self.expiration_text = str(self.expiration).split(" ")[0]
+        self.expiration = datetime.strptime(added, "%d-%m-%y") + timedelta(days=int(storage_time))        
+        exp_text = str(self.expiration).split(" ")[0].split("-")
+        self.expiration_text = f'{exp_text[1]}/{exp_text[2]}/{exp_text[0][-2:]}'
+        self.days_left = (self.expiration - datetime.now()).days
+        self.color = self.get_color()
+        if "Buttermilk" in name:
+            print(self.color)
         return
+    
+    def get_color(self):
+        if self.days_left < 0:
+            return "black"
+        elif self.days_left == 0:
+            return "red"
+        elif 1 <= self.days_left <= 3:
+            return "orange"
+        elif 4 <= self.days_left <= 7:
+            return "yellow"
+        else:
+            return "green"
 
     def __repr__(self):
         return f"Food('{self.name}', '{self.food_group}', {self.storage_time}, {repr(self.added)})"

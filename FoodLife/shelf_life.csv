@@ -33,7 +33,6 @@ Ready-to-bake pie crust,DOUGH,Use by date,60,None,None,None,None,None,None
 Cookie dough,DOUGH,Use by date,60,None,None,None,None,None,None
 Fresh pasta,PASTA,1,60,None,None,None,None,None,None
 Pesto Salsa unopened,PESTO_SALSA,3,30,None,None,None,None,None,None
-Pesto Salsa open,PESTO_SALSA,Use by date,30,None,None,None,None,None,None
 Soy or rice beverage refrigerated,SOY PRODUCTS,7,Do not freeze,None,None,None,None,None,None
 Tofu,SOY PRODUCTS,7,150,None,None,None,None,None,None
 Miso,SOY PRODUCTS,90,Do not freeze,None,None,None,None,None,None

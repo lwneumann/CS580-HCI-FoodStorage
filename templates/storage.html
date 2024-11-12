@@ -10,6 +10,11 @@
     <!-- Left -->
     <div style="width: 48%;">
 
+        <!-- Food Box -->
+        <div class="foodBox" style="background-color: #7483ab; border: 2px solid black;
+        padding: 0; padding-left: 5px;">
+            <p>MM/DD/YY: Food Item</p>
+        </div>
         {% for f in get_food() %}
         <div class="foodBox">
             <form action="{{ url_for('remove_item', index=f[0] ) }}" method="post">
@@ -20,12 +25,31 @@
             </form>
             <!-- <button class="delete-btn">&times;</button> -->
             <p>{{f[1].expiration_text}}: {{f[1].name}}</p>
+            <div class="expIndicator" style="background-color: {{f[1].color}};"></div>
         </div>
         {% endfor %}
     </div>
 
     <!-- Right -->
     <div style="width: 48%;">
+        <div class="foodInfo">
+            <div style="background-color: green">
+                Over a week
+            </div>
+            <div style="background-color: orange">
+                4-7 Days
+            </div>
+            <div style="background-color: yellow">
+                1-3 Days
+            </div>
+            <div style="background-color: red">
+                Today
+            </div>
+            <div style="background-color: black; color: white;">
+                Expired
+            </div>
+        </div>
+
         <div>
             <form method="POST"> 
                 <input name="foodInput"></input> 
@@ -33,6 +57,7 @@
             </form> 
         </div>
     
+        <!-- Search Box -->
         <div>
             {% for f in food_search(f_search) %}
                 <div class="addBox">
@@ -40,7 +65,7 @@
                         <div class="addCircle" onclick="this.parentElement.submit();"></div>
                     </form>
                 <div class="food-item">{{ f }}</div>
-            </div>
+                </div>
             {% endfor %}
         </div>
     </div>
