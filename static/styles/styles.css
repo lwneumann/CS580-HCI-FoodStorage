@@ -107,6 +107,7 @@ tr:nth-child(odd) {
     align-items: center;
     border-radius: 10px;
     background-color: #6480cc;
+    cursor: pointer;
 }
 
 /* Food Box */
@@ -116,7 +117,7 @@ tr:nth-child(odd) {
     margin-bottom: 20px;
     background-color: #4a62a4;
     border-radius: 10px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Slight shadow */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
   }
 .foodBox p {
     color: white;
@@ -142,10 +143,10 @@ tr:nth-child(odd) {
     align-items: center;
     justify-content: center;
 }
-  
+
 .delete-btn .line {
     position: absolute;
-    width: 100%;
+    width: 25px;
     height: 3px;
     background-color: #ff4d4d;
     transition: transform 0.2s ease;

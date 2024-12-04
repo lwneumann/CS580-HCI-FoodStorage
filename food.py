@@ -56,7 +56,8 @@ class Fridge:
 
         # Get all times
         for i, f in enumerate(self.contents):
-            new_index.append([f.expiration, i])
+            if f is not None:
+                new_index.append([f.expiration, i])
 
         # Sort
         new_index = sorted(new_index)
@@ -85,8 +86,9 @@ class Fridge:
         # Saves to file
         with open("fridge.txt", "w+") as file:
             for f in self.contents:
-                file.write(repr(f))
-                file.write("\n")
+                if f is not None:
+                    file.write(repr(f))
+                    file.write("\n")
         return
 
     def add(self, f):
@@ -112,10 +114,17 @@ class Fridge:
 
     def get_all(self):
         # Returns all food
-        return [(i, f) for i, f in enumerate(self.contents)]
+        all_food = [(i, f) for i, f in enumerate(self.contents) if f is not None]
+        return all_food
 
     def count_food(self):
         counts = [0 for i in range(5)]
         for f in self.contents:
-            counts[["green", "yellow", "orange", "red", "black"].index(f.color)] += 1
+            if f is not None:
+                counts[["green", "yellow", "orange", "red", "black"].index(f.color)] += 1
         return counts
+
+    def purge(self):
+        self.contents = []
+        self.save()
+        return

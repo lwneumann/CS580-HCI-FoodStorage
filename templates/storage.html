@@ -16,15 +16,27 @@
             <p>MM/DD/YY: Food Item</p>
         </div>
         {% for f in get_food() %}
-        <div class="foodBox" style="background-image: linear-gradient(to right, {{f[1].color}}, #4a62a4);">
+
+        {% if f is not none %}
+        <div class="foodBox" style="background-color: {{f[1].color}};">
             <form action="{{ url_for('remove_item', index=f[0] ) }}" method="post">
                 <button class="delete-btn">
+                    <span class="line line1"
+                    style="width: 28px;
+                        height: 5px;
+                        background-color: black;"></span>
+                    <span class="line line2"
+                    style="width: 28px;
+                        height: 5px;
+                        background-color: black;"></span>
                     <span class="line line1"></span>
                     <span class="line line2"></span>
                 </button>
             </form>
             <p>{{f[1].expiration_text}}: {{f[1].name}}</p>
         </div>
+        {% endif %}
+
         {% endfor %}
     </div>
 
@@ -57,6 +69,60 @@
                     <td>{{food_counts[4]}}</td>
                 </tr>
             </table>
+
+            <!-- Extra Buttons -->
+            <div style="position: absolute;
+                        top: 13px; right: 13px;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: flex-end;">
+                <form action="{{ url_for('user_guide') }}" method="get" target="_blank"
+                style="margin-bottom: 5px;">
+                    <button type="submit">Open User Guide New Tab</button>
+                </form>
+
+                <button onclick="showPopup()">Clear Inventory</button>
+
+                <div id="popup" style="display:none; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); background-color: white; padding: 20px; border: 1px solid #ccc; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+                    <p>Are you sure you want to delete everything?</p>
+                    <button onclick="handleResponse('Yes')">Yes</button>
+                    <button onclick="handleResponse('No')">No</button>
+                </div>
+
+                <script>
+                    function showPopup() {
+                        document.getElementById('popup').style.display = 'block';
+                    }
+                
+                    function handleResponse(response) {
+                        if (response === 'Yes') {
+                            // Send POST request to Flask to call `delete_all`
+                            fetch('/delete_all/', {
+                                method: 'POST',
+                            })
+                            .then(response => {
+                                // You can check for a successful response if needed
+                                if (response.ok) {
+                                    // Refresh the page after the inventory is cleared
+                                    location.reload();
+                                } else {
+                                    alert('There was an error clearing the inventory.');
+                                }
+                            })
+                            .catch(error => {
+                                console.error('Error:', error);
+                                alert('There was an error clearing the inventory.');
+                            });
+                        } else {
+                            alert('You selected No!');
+                        }
+                
+                        // Hide the pop-up
+                        document.getElementById('popup').style.display = 'none';
+                    }
+                </script>
+            </div>
+
         </div>
     
         <!-- Search Box -->
@@ -70,12 +136,12 @@
             
             <div>
                 {% for f in food_search(f_search) %}
-                <div class="addBox">
-                    <form action="{{ url_for('add_food', addf = f) }}" method="post" class="food-button">
-                        <div class="addCircle" onclick="this.parentElement.submit();"></div>
-                    </form>
-                    <div class="food-item">{{ f }}</div>
-                </div>
+                <form action="{{ url_for('add_food', addf = f) }}" method="post" class="food-button">
+                    <div class="addBox" onclick="this.closest('form').submit();">
+                        <div class="addCircle"></div>
+                        <div class="food-item">{{ f }}</div>
+                    </div>
+                </form>
                 {% endfor %}
             </div>
         </div>
